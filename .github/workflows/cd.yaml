@@ -3,7 +3,7 @@ name: Frontend Dev Pipeline
 on:
   push:
     branches:
-      - dev
+      - main
     paths:
       - 'backend/**'
       - '.github/workflows/cd.yml'
