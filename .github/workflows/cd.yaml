@@ -32,4 +32,4 @@ jobs:
         run: |
           docker build -t flask-app ./backend
           docker tag flask-app:latest $ECR_URL:latest
-          docker push $ECR_URL:latest
+          docker push ${{ secrets.ECR_URL }}:latest
