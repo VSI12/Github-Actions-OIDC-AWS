@@ -4,9 +4,7 @@ on:
   push:
     branches:
       - main
-    paths:
-      - 'backend/**'
-      - '.github/workflows/cd.yml'
+    
 permissions:
   id-token: write   
   contents: read    
